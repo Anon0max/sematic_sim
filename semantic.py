@@ -27,4 +27,7 @@ print(word6.similarity(word4))
 #suprisingly little between ball and egg (approx 0.19). I'm thinking of a rugby ball, so perhaps that's why i find it suprising!
 #less suprisingly little similarity between foot and egg
 
-#When runnin
+#When running the simpler model on the example file, there was an error message
+#which stated that the smaller models has no word vectors.
+#it suggest that you can make your own vectors or use a larger model like en_core_web_md
+#As such this model gave much lower semantic similarities than the previos model.

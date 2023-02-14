@@ -11,7 +11,7 @@
 # Please read all the comments in this example file and all others.
 
 import spacy  # importing spacy
-nlp = spacy.load('en_core_web_md') # specifying the model we want to use. Remember to install this model by typing python -m spacy download en_core_web_md into your command line
+nlp = spacy.load('en_core_web_sm') # specifying the model we want to use. Remember to install this model by typing python -m spacy download en_core_web_md into your command line
 
 # Now we are going to look into longer texts and compare them. 
 # Below we  have two lists: one containing complaints submitted to a company, and another of recipes found online.
